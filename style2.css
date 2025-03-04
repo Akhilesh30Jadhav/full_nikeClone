@@ -1,0 +1,232 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .maincontainer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        
+
+    }
+    body{
+        display: flex;
+        flex-wrap: wrap;
+
+        background-color: white;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+
+    }
+    .header{
+        width: 100%;
+
+        height: 60px;
+        background-color:  white;
+        display: flex;
+        justify-content: center;
+        
+
+
+
+    }
+    .header>svg{
+        position: relative;
+        left: -300px;
+        top: 10px;
+
+
+    }
+    .jordan{
+        width: 100%;
+        height: 60px;
+        background-color:  white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 0.1px rgb(184, 184, 184);
+
+    }
+    .shoes{
+        height:700px;
+        width: 550px;
+        display: flex;
+        background-color:  white;
+        left: -30px;
+        position: relative;
+        align-items: center;
+
+        
+    }
+    .description{
+        height: 700px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        
+        background-color: white;
+    }
+
+
+    .size-option {
+        padding: 0;
+        width: 240px;
+        height: 40px;
+        border: 1px solid #ccc;
+        background-color: white;
+        text-align: center;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+    
+    .size-option:hover {
+        transform: scale(1.1);
+        background-color: #f0f0f0;
+        border-color: #999;
+    }
+    
+    .buttons {
+        height: 300px;
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        position: relative;
+    }
+    
+.product_details>ul{
+    font-size: 20px
+}
+.product_name{
+    height: 300px;
+
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.product_details{
+    height: 201px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.cart{
+    display: flex;
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.cart>p{
+    background-color: rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+    
+
+}
+.header>p{
+    color: black;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding:5px;
+    
+    align-self: center;
+   position: relative;
+   
+    
+    
+}
+.search-container {
+ margin-bottom: 20px;
+ display: flex;
+ position: relative;
+ left: 250px;
+ top: 10px;
+}            
+.search-input {
+            padding: 8px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+}
+.search-button {
+            padding: 8px 12px;
+            border: none;
+            background-color: #566569;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+}
+@media(max-width:760px){
+    .header>svg{
+        display: none;
+    }
+    .header>p{
+        position: relative;
+        left: -30px;
+        font-size: 12px;
+    }
+    .shoes>img{
+        height: 350px;
+        width: 350px;
+        
+        
+    }
+    .shoes{
+        height: 400px;
+        width: 400px;
+        
+    }
+    .product_details{
+        display: flex;
+        justify-content: flex-start;
+        left: 20px;
+        position: relative;
+        height: 200px;
+    }
+    .buttons{
+        display: flex;
+        justify-content: flex-start;
+        left: 20px;
+    }
+    .product_details>ul{
+        font-size: 20px;
+    }
+    .search-container{
+        display: none;
+    }
+    .description{
+        width: 400px;
+    }
+    .size-option{
+        height: 50px;
+        width: 140px;
+}
+.maincontainer{
+    width: 100%;
+    display: flex;
+    
+
+}
+}
